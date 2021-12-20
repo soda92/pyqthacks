@@ -28,6 +28,13 @@ class MyWindow(ui.Ui_MainWindow):
         self.setupUi(self.window)
         self.retranslateUi(self.window)
         self.window.show()
+        print(self.something())
+    
+    def something(self):
+        winid = self.tabWidgetPage1.winId()
+        return int(winid)
+
+
 
 window = MyWindow()
 

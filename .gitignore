@@ -131,3 +131,9 @@ dmypy.json
 
 # generated ui file
 ui.py
+
+# venv
+venv*
+
+# pyqt vscode plugin
+.qt_for_python
